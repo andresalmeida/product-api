@@ -41,17 +41,17 @@ Para probar los endpoints de la API, usa Thunder Client o cualquier otra herrami
 Endpoints disponibles
 
 - GET /products: Obtiene la lista de todos los productos.
- - Método: GET
- - URL: http://localhost:8000/products
+  - Método: GET
+  - URL: http://localhost:8000/products
 
 - GET /products/{product_id}: Obtiene un producto por su ID.
- - Método: GET
- - URL: http://localhost:8000/products/{product_id}
+  - Método: GET
+  - URL: http://localhost:8000/products/{product_id}
 
 - POST /products: Crea un nuevo producto.
- - Método: POST
- - URL: http://localhost:8000/products
- - Cuerpo de la solicitud (JSON):
+  - Método: POST
+  - URL: http://localhost:8000/products
+  - Cuerpo de la solicitud (JSON):
 ```bash
 {
   "name": "Nuevo Producto",
@@ -60,9 +60,9 @@ Endpoints disponibles
 }
 ```
 - PUT /products/{product_id}: Actualiza un producto existente.
- - Método: PUT
- - URL: http://localhost:8000/products/{product_id}
- - Cuerpo de la solicitud (JSON):
+  - Método: PUT
+  - URL: http://localhost:8000/products/{product_id}
+  - Cuerpo de la solicitud (JSON):
 ```bash
 {
   "name": "Producto Actualizado",
@@ -71,8 +71,8 @@ Endpoints disponibles
 }
 ```
 - DELETE /products/{product_id}: Elimina un producto por su ID.
- - Método: DELETE
- - URL: http://localhost:8000/products/{product_id}
+  - Método: DELETE
+  - URL: http://localhost:8000/products/{product_id}
 
 ## Estructura del Proyecto
 
