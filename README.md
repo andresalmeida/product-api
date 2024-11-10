@@ -40,18 +40,18 @@ Para probar los endpoints de la API, usa Thunder Client o cualquier otra herrami
 
 Endpoints disponibles
 
--GET /products: Obtiene la lista de todos los productos.
---Método: GET
---URL: http://localhost:8000/products
+- GET /products: Obtiene la lista de todos los productos.
+ - Método: GET
+ - URL: http://localhost:8000/products
 
--GET /products/{product_id}: Obtiene un producto por su ID.
---Método: GET
---URL: http://localhost:8000/products/{product_id}
+- GET /products/{product_id}: Obtiene un producto por su ID.
+ - Método: GET
+ - URL: http://localhost:8000/products/{product_id}
 
--POST /products: Crea un nuevo producto.
---Método: POST
---URL: http://localhost:8000/products
---Cuerpo de la solicitud (JSON):
+- POST /products: Crea un nuevo producto.
+ - Método: POST
+ - URL: http://localhost:8000/products
+ - Cuerpo de la solicitud (JSON):
 ```bash
 {
   "name": "Nuevo Producto",
@@ -59,10 +59,10 @@ Endpoints disponibles
   "price": 100.0
 }
 ```
--PUT /products/{product_id}: Actualiza un producto existente.
---Método: PUT
---URL: http://localhost:8000/products/{product_id}
---Cuerpo de la solicitud (JSON):
+- PUT /products/{product_id}: Actualiza un producto existente.
+ - Método: PUT
+ - URL: http://localhost:8000/products/{product_id}
+ - Cuerpo de la solicitud (JSON):
 ```bash
 {
   "name": "Producto Actualizado",
@@ -70,9 +70,9 @@ Endpoints disponibles
   "price": 120.0
 }
 ```
--DELETE /products/{product_id}: Elimina un producto por su ID.
---Método: DELETE
---URL: http://localhost:8000/products/{product_id}
+- DELETE /products/{product_id}: Elimina un producto por su ID.
+ - Método: DELETE
+ - URL: http://localhost:8000/products/{product_id}
 
 ## Estructura del Proyecto
 
@@ -88,9 +88,9 @@ Endpoints disponibles
 
 Este proyecto utiliza las siguientes dependencias:
 
--fastapi: Framework para la construcción de la API.
--uvicorn: Servidor ASGI para ejecutar FastAPI.
--psycopg2: Adaptador para la conexión con PostgreSQL.
+- fastapi: Framework para la construcción de la API.
+- uvicorn: Servidor ASGI para ejecutar FastAPI.
+- psycopg2: Adaptador para la conexión con PostgreSQL.
 
 Para instalar las dependencias, ejecuta:
 
